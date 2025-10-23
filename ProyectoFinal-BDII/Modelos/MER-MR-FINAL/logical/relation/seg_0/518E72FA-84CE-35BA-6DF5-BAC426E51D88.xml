@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASIGNAR" directorySegmentName="seg_0" id="518E72FA-84CE-35BA-6DF5-BAC426E51D88">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:39:09 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<targetPk>8620CE4A-88B5-E831-5C04-AFD41B517D11</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>99B0827D-53FC-468B-FF71-026E569CF898</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>4B95CAE2-3A5D-DB0D-F272-2447AA9150D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

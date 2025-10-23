@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07D09EC1-B80F-C513-EC89-5AD5249C2221" name="EQUIPO">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-22 22:22:53 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>EQU</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_EQUIPO" id="E70E9776-3324-73F0-9151-CB7411884B56">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-22 22:23:01 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="AEB4E06C-A0F4-60FC-E0EF-3F1E47D49BF7">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-22 22:23:24 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FUNDACION" id="A3E8E71E-5055-9DCE-19C7-10D5F9B6EDD3">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-22 22:23:35 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITULOS_LIGA" id="A6BFD1F4-59BE-929A-B784-A78BA4D39AAC">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-22 22:23:58 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITULOS_COPA" id="1FB56D54-3680-2799-5DE7-9F044FA7DDDD">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-22 22:24:24 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITULOS_SUPERLIGA" id="3CE57E70-777D-6AAF-0EE5-C54C8C4BD099">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-22 22:24:37 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DT" id="A926608D-9314-4FF8-A45C-4D38A6C7E6BC">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:38:32 UTC</createdTime>
+<generatorID>FCFCCC3D-E900-4F2B-E4CA-38FD1F4DFE94</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<referedAttribute>64BA2843-0CD6-D91C-0CF7-F8DFD2F6ED3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03DE1ECF-DF8A-A965-E5AD-4E804BCD8313" name="EQUIPO PK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-22 22:23:22 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E70E9776-3324-73F0-9151-CB7411884B56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

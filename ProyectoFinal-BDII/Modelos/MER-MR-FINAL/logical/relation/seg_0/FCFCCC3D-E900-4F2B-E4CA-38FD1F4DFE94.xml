@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIRIGIR" directorySegmentName="seg_0" id="FCFCCC3D-E900-4F2B-E4CA-38FD1F4DFE94">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:38:16 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<sourcePk>03DE1ECF-DF8A-A965-E5AD-4E804BCD8313</sourcePk>
+<targetPk>80816B92-BA18-AF03-A812-3E3D43E82BFA</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07D09EC1-B80F-C513-EC89-5AD5249C2221</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>261A43A8-C820-E851-B7B7-1182FB617FCB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

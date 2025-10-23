@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9F6F464-FC99-8997-1011-4A79E48BEB72" name="JUGADOR">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>9CDA056F-1B1E-567A-CD0D-277938163952</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<abbreviation>JUG</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_JUGADOR" id="4CB31A13-06B7-B4FC-6CA4-68D1847307BA">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>C117C317-0C7B-7F9B-0D27-B109941C439D</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_NOMBRE" id="B1570268-263E-6F8F-765D-311275A3805C">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>660B3B59-DC98-1547-B86B-9FCE3FBC5B6B</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUNDO_NOMBRE" id="14F38D58-1416-563A-36FE-DA3561EB51B6">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>0C09DC8F-4921-CFD6-81F9-0A6DB8049694</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_APELLIDO" id="64A102BF-DC34-7A94-5770-184169CCE506">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>E82441C5-C92E-6E44-2B80-C854D6CA6FF2</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGUNDO_APELLIDO" id="ABF52C75-CE81-3C1A-86CA-94A59380124A">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>2DEF118D-8F91-2C42-0719-CA54B450E037</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="6AAE2AFF-B250-9FF1-24DB-9CB2C85083D2">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>F8343C12-D562-20CC-46CC-031CDBBEF81D</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NACIONALIDAD" id="5D7E452E-84C3-694D-BF74-E89C3B7E056D">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>3E0A0BDF-C8E8-8CE7-D4E5-AD427384CC00</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSICION" id="1F97062B-D83C-F4E3-A449-1545AA873538">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>6D47A8C9-91D1-50EB-A50F-0F18275E7CE9</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="E1D03ED5-F855-47A9-B641-24B00BC18824">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>BFFC5DC5-D7A2-1AFE-B796-FBF5ACF2B6EE</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPO_ID_EQUIPO" id="EB890A27-0568-C383-D0E6-4EE063EE619E">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>196A62F4-9888-2C3A-F145-BDBC9FF0E48E</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="016DC658-6A6C-EB45-1751-E58633F72111" referredColumn="FD8E2FC5-6446-CAF4-1A83-CE74C480D038"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1298C26-6047-CED9-A893-905B79FB56FB" name="JUGADOR_PK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>6D54B2B3-EE0B-D4B2-FBAC-72F395FAE044</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CB31A13-06B7-B4FC-6CA4-68D1847307BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28B1F9F5-32AC-B852-10D2-221AC5C0C0A9" name="JUGADOR_EQUIPO_FK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>3C75C142-7AD3-583F-6D7B-41C4497C2F0F</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB890A27-0568-C383-D0E6-4EE063EE619E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

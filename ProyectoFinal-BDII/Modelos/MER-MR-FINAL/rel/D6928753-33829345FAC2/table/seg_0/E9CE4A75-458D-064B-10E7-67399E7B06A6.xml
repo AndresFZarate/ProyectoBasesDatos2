@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9CE4A75-458D-064B-10E7-67399E7B06A6" name="PARTIDO">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>99B0827D-53FC-468B-FF71-026E569CF898</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<abbreviation>PAR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCAL" id="B3D95ECC-EAE6-4A99-0712-52F5D8544674">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:57:24 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0596B90-4C81-1AF9-30A3-B90868BC3636" referredColumn="FD8E2FC5-6446-CAF4-1A83-CE74C480D038"/>
+</associations>
+</Column>
+<Column name="VISITA" id="55D430A0-7655-1FDE-4E22-969CC906238E">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 04:07:55 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C560DB5-D344-2E63-D0D2-3F1ECFEA9BE1" referredColumn="FD8E2FC5-6446-CAF4-1A83-CE74C480D038"/>
+</associations>
+</Column>
+<Column name="FECHA" id="E7AE123E-3070-5FA2-E035-91B4E038929D">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>1E3464DC-B956-4260-D8B5-5CD13E5057BB</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JORNADA" id="E03537B1-76D5-8352-57AA-DF0E74BFFC24">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>D6395C9B-062E-9F87-1877-245945266162</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOL_LOCAL" id="4C5048D3-0FA2-2AD2-0703-32B39C532699">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>83BBC364-5F0F-54CE-A7E8-558B1DDB1611</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GOL_VISITA" id="4A1E7676-E6C5-004C-A3E4-4392E2BB59E0">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>FA140D6D-E67B-376E-6FF4-CFC468434848</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADIO" id="9E82F4FE-0D70-590D-B558-EFDEBBC5541B">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>4572E046-D2D4-3F8A-574F-F3015C4D64D3</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ECBE1FF-0E84-3AF2-03D7-55FB88F55CF7" referredColumn="DECCC80C-3461-6E53-0384-67C58403CDD5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A1C6B1C-EF25-FCD2-C9DA-FC9F6E4810A3" name="PAR_PK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B3D95ECC-EAE6-4A99-0712-52F5D8544674"/>
+<colUsage columnID="55D430A0-7655-1FDE-4E22-969CC906238E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="275B2BBE-C829-A0A6-0B50-B5831F7B8789" name="PARTIDO_ESTADIO_FK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>518E72FA-84CE-35BA-6DF5-BAC426E51D88</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E82F4FE-0D70-590D-B558-EFDEBBC5541B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE3723A1-FF98-1994-59F3-870A9BA9895B" name="PARTIDO_EQUIPO_FK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 04:08:59 UTC</createdTime>
+<generatorID>03DE1ECF-DF8A-A965-E5AD-4E804BCD8313</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3D95ECC-EAE6-4A99-0712-52F5D8544674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAF8B109-340F-4E60-7DFB-127936460640" name="PARTIDO_EQUIPO_FKv2">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 04:09:25 UTC</createdTime>
+<generatorID>03DE1ECF-DF8A-A965-E5AD-4E804BCD8313</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55D430A0-7655-1FDE-4E22-969CC906238E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B85F02D8-918C-ACAD-DFFA-2A4E64797A3B" name="DIRECTOR_TECNICO">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>261A43A8-C820-E851-B7B7-1182FB617FCB</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<abbreviation>DT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DT" id="C398A6E1-2B36-E2DF-7FD2-B632464D3EFD">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>64BA2843-0CD6-D91C-0CF7-F8DFD2F6ED3D</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_NOMBRE" id="E672CAF8-6D8B-AD88-EB92-D7DB9BF3EA9C">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>AD9CCC2F-ED09-5A93-ADB6-BC7B9E536238</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMER_APELLIDO" id="EADBCD2F-6209-2E55-4D9D-B50024AC963C">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>257E2090-B183-87EE-3E85-C59A04C54490</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NACIONALIDAD" id="E625514C-8DE5-5F50-309E-3CC30BBDD822">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>415435A9-E481-0D29-534D-94C5C62A0B30</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPO_ID_EQUIPO" id="A22F8639-CE1C-F200-C5B9-3FE2B2F45BEF">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>8231B8FB-AB41-4A61-F14F-F85796345E49</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E18DCE2A-3908-1948-37D1-4AE8DBA7F69F" referredColumn="FD8E2FC5-6446-CAF4-1A83-CE74C480D038"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36A428E9-0067-BEBD-7A6B-3FBFA704D960" name="DIRECTOR_TECNICO_PK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>80816B92-BA18-AF03-A812-3E3D43E82BFA</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C398A6E1-2B36-E2DF-7FD2-B632464D3EFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD49DC00-146C-1A25-44F0-171153892DB9" name="DIRECTOR_TECNICO__IDX">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FCFCCC3D-E900-4F2B-E4CA-38FD1F4DFE94</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A22F8639-CE1C-F200-C5B9-3FE2B2F45BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B9B335F-8224-7AC1-4179-C98286DA91A1" name="DIRECTOR_TECNICO_EQUIPO_FK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>FCFCCC3D-E900-4F2B-E4CA-38FD1F4DFE94</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A22F8639-CE1C-F200-C5B9-3FE2B2F45BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

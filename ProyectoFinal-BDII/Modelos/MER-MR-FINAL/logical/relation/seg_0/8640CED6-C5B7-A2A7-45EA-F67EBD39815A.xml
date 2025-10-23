@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DISPUTAR" directorySegmentName="seg_0" id="8640CED6-C5B7-A2A7-45EA-F67EBD39815A">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:37:24 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<engineerTo>
+<item key="D6928753-7042-3DB3-6E97-33829345FAC2" value="true"/>
+</engineerTo>
+<sourcePk>03DE1ECF-DF8A-A965-E5AD-4E804BCD8313</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>07D09EC1-B80F-C513-EC89-5AD5249C2221</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>99B0827D-53FC-468B-FF71-026E569CF898</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

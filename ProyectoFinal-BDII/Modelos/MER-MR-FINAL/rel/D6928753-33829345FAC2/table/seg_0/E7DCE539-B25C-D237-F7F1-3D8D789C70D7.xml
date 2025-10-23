@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7DCE539-B25C-D237-F7F1-3D8D789C70D7" name="EQU-CIU-EST">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>ABC62EE0-EE2D-47FA-B48F-B4A936FD981C</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<ordsAlias>pertenecer</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESTADIO_ID_ESTADIO" id="3B5226C8-A55E-EB61-0A6E-E69A638595DB">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>12406C72-3C6F-6965-F3D2-72EFB0A69CDD</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A62C83C8-B644-DECC-BC43-956BF2C04ECA" referredColumn="DECCC80C-3461-6E53-0384-67C58403CDD5"/>
+</associations>
+</Column>
+<Column name="CIUDAD_ID_CIUDAD" id="D4DA5D9E-92D3-4F33-E4F7-78356DE11B77">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>1C1C38EC-98F0-3F09-D813-202B30E6116F</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FFA4274-6407-E465-FE77-8E727B964A19" referredColumn="6B42DF34-5AA4-B46F-7E04-5F74F8CCB9D2"/>
+</associations>
+</Column>
+<Column name="EQUIPO_ID_EQUIPO" id="7BED39AA-0184-7DAC-0513-73A302FC8861">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>9FA89312-AFE8-6B4C-614E-66D7CF0EEB70</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E4F4649-ADF9-77D7-57EA-EFA8F40596C2" referredColumn="FD8E2FC5-6446-CAF4-1A83-CE74C480D038"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE6A7108-97D0-1C31-9ABF-86158CCEB085" name="EQU-CIU-EST_PK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 04:10:56 UTC</createdTime>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B5226C8-A55E-EB61-0A6E-E69A638595DB"/>
+<colUsage columnID="D4DA5D9E-92D3-4F33-E4F7-78356DE11B77"/>
+<colUsage columnID="7BED39AA-0184-7DAC-0513-73A302FC8861"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B5FA4B7-2B06-017B-4071-7218C21B67C5" name="EQU-CIU-EST_EQUIPO_FK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>033DD2CE-9AEA-4FBD-E1FA-F3013541C9FD</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BED39AA-0184-7DAC-0513-73A302FC8861"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5C35D3C-668E-2FE1-A166-25C691C4F33B" name="EQU-CIU-EST_ESTADIO_FK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>1BA7CBCF-561E-78A0-C8C0-D5A1FBCA9408</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B5226C8-A55E-EB61-0A6E-E69A638595DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6E23AEC-9036-2A83-A5E9-84A35825A10A" name="EQU-CIU-EST_CIUDAD_FK">
+<createdBy>Moren</createdBy>
+<createdTime>2025-10-23 03:41:12 UTC</createdTime>
+<generatorID>40FF99A1-B470-4F82-0EF4-1BDCEB8F8CC8</generatorID>
+<ownerDesignName>MER-MR-FINAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4DA5D9E-92D3-4F33-E4F7-78356DE11B77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
